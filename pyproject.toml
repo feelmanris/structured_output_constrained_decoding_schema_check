@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "feelmanris-injectguard_jd467"
+name = "feelmanris-structured_output_constrained_decoding_schema_check"
 version = "0.1.0"
 description = "从样本里推断提示注入防护工程师·结构化输出的约束解码应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://feelmanris.github.io"
-Repository = "https://github.com/feelmanris/injectguard_jd467"
-Issues = "https://github.com/feelmanris/injectguard_jd467/issues"
+Repository = "https://github.com/feelmanris/structured_output_constrained_decoding_schema_check"
+Issues = "https://github.com/feelmanris/structured_output_constrained_decoding_schema_check/issues"
 
 [project.scripts]
-injectguard_jd467 = "injectguard_jd467:main"
+structured_output_constrained_decoding_schema_check = "structured_output_constrained_decoding_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["injectguard_jd467"]
+py-modules = ["structured_output_constrained_decoding_schema_check"]
